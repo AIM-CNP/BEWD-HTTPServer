@@ -117,7 +117,7 @@ public class ConnectionHandler {
                         OffsetDateTime.now().format(DateTimeFormatter.RFC_1123_DATE_TIME))
                 .replace("{{HTTP_STATUS}}", status);
 
-        headers = setContentLength(headers, filename);
+        headers = headers.replace("{{CONTENT_LENGTH}}", Integer.toString(90));
 
         System.out.println("-> Responded with the following HTTP-headers:");
         System.out.println(headers);
