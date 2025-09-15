@@ -63,13 +63,13 @@ lossen. Gebruik deze om het probleem op te lossen.
 
 # Opdrachten voor de les
 
-## 6) Gebruik Postman om een Request te sturen
+## 6) Gebruik Insomnia om een Request te sturen
 
-Gebruik nu Postman om een GET-request te sturen naar je eigen Http-server.
+Gebruik nu Insomnia om een GET-request te sturen naar je eigen Http-server.
 
 * Verstuur een GET naar URL de [http://localhost:8383/index.html]() en bekijk
   het resultaat.
-* Selecteer nu een andere Http-methode in Postman en bekijk het resultaat.
+* Selecteer nu een andere Http-methode in Insomnia en bekijk het resultaat.
   Is dit wat je verwacht? En kun je in de Java code de plek aanwijzen waar
   dit is uitgeprogrammeerd?
 
